@@ -1,0 +1,37 @@
+>>> git config --global --list
+To display configured user name and email
+
+if not configured
+git config --global user.name "vineet"
+git config --global user.email "abc@gmail.com"
+
+-->staging area is where we want to save the changes to commit 
+-->move files from working area to staging area
+git add .
+or git add file_name
+
+--->git branch
+display list of branches in local repo
+
+--> git branch dev
+create a new branch
+
+-->git status 
+see the changes whether they are tracked or not
+
+
+---> switch branch
+git switch dev
+
+--> merge
+git checkout main
+git merge dev
+
+--> create and switch to new branch
+git checkout -b features 
+
+--> delete local branch
+    git branch --delete old-branch.
+    git branch -d old-branch.
+
+
