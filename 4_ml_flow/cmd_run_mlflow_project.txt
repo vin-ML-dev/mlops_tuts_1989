@@ -1,0 +1,1 @@
+mlflow run . --env-manager=local --experiment-name Loan_prediction
